@@ -1,0 +1,26 @@
+# Not deployed (see README → Deploy)
+# QA screenshots (the 2 used by the manifest live in assets/pwa/)
+screenshots/
+# Justin's full-size originals; only tools/optimise-brand.py needs them
+assets/brand/source/
+assets/brand/og-image-placeholder.png
+qa/
+*.report.html
+*.report.json
+
+# Local / tooling
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Secrets: never commit
+.env
+.env.*
+*.pem
+*.key
+.netrc
+hosts.yml

@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- Keep this CSP in sync with _headers and netlify.toml. frame-src = platforms with embeds in js/platforms.js.
+       'unsafe-eval' + embed-cdn.spotifycdn.com are required ONLY by Spotify's official iFrame API bundle (it is shipped as eval()'d
+       webpack modules; verified 2026-10-01). Without them the player automatically falls back to a plain Spotify embed (no remote control).
+       To harden further, set "spotifyIframeApi": false in data/site.json player settings and remove both from the CSP. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-wMN+mlF5/lbEMR70cf40Jgn4jopAI/p3LrhOu5tsqkY=' 'unsafe-eval' https://open.spotify.com https://embed-cdn.spotifycdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://cdn2.suno.ai https://*.spotifycdn.com https://i.scdn.co; font-src 'self'; connect-src 'self'; media-src 'self' https:; frame-src https://open.spotify.com https://suno.com; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Prismatic Wave — Hybrid Music Producer</title>
+  <meta name="description" content="Prismatic Wave is the hybrid music project of South African producer Justin Erasmus, made through AlgoRythm Hybrid Music Production (AHMP). Human creativity × AI × Music × Technology. Listen on Spotify and Suno.">
+  <meta name="theme-color" content="#07080f">
+  <meta name="color-scheme" content="dark">
+  <!-- TODO: replace https://xkwizitai33.github.io/prismatic-wave/ with the live domain (also in sitemap.xml, robots.txt and data/site.json siteUrl) -->
+  <link rel="canonical" href="https://xkwizitai33.github.io/prismatic-wave/">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/unbounded-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="data/site.json" as="fetch" crossorigin>
+  <link rel="preload" href="assets/brand/hero-bg.svg" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Hides the pre-rendered home hero on deep links (#/music etc.). If you edit this line, update its sha256 in the CSP (index.html, _headers, netlify.toml). -->
+  <script>if(/^#\/[a-z]/i.test(location.hash))document.documentElement.classList.add('deep-link')</script>
+  <!-- Open Graph / Twitter (static so link previews work without JavaScript) -->
+  <meta property="og:type" content="music.musician">
+  <meta property="og:site_name" content="Prismatic Wave">
+  <meta property="og:title" content="Prismatic Wave — Hybrid Music Producer">
+  <meta property="og:description" content="Human creativity × AI × Music × Technology. The hybrid music project of Justin Erasmus, produced through AlgoRythm Hybrid Music Production (AHMP).">
+  <meta property="og:url" content="https://xkwizitai33.github.io/prismatic-wave/">
+  <meta property="og:image" content="https://xkwizitai33.github.io/prismatic-wave/assets/brand/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Prismatic Wave — Hybrid Music Producer">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Prismatic Wave — Hybrid Music Producer">
+  <meta name="twitter:description" content="Human creativity × AI × Music × Technology. Listen on Spotify and Suno.">
+  <meta name="twitter:image" content="https://xkwizitai33.github.io/prismatic-wave/assets/brand/og-image.jpg">
+  <!-- JSONLD:START (regenerate with: python3 tools/build-seo.py) -->
+  <script type="application/ld+json" id="ld-static">{"@context":"https://schema.org","@type":"MusicGroup","name":"Prismatic Wave","description":"Prismatic Wave is the hybrid music project of South African producer Justin Erasmus, made through AlgoRythm Hybrid Music Production (AHMP). Human creativity × AI × Music × Technology. Listen on Spotify and Suno.","url":"https://xkwizitai33.github.io/prismatic-wave/","image":"https://xkwizitai33.github.io/prismatic-wave/assets/brand/og-image.jpg","logo":"https://xkwizitai33.github.io/prismatic-wave/assets/brand/logo-prismatic-wave.svg","foundingLocation":{"@type":"Place","name":"South Africa"},"member":[{"@type":"Person","name":"Justin Erasmus","jobTitle":"Hybrid Music Producer"}],"sameAs":["https://open.spotify.com/artist/4q1wMDlETpNlIob1xnVQNA","https://suno.com/playlist/e0a90462-a62a-44a6-a8c6-4632712d6a08","https://suno.com/@algorythm_hybrid_music_production"],"album":[{"@type":"MusicAlbum","name":"Ghost Choir In My Skull","datePublished":"2026-03-14","albumReleaseType":"https://schema.org/SingleRelease","numTracks":1,"image":"https://xkwizitai33.github.io/prismatic-wave/assets/artwork/ghost-choir-in-my-skull.webp","url":"https://xkwizitai33.github.io/prismatic-wave/#/discography/ghost-choir-in-my-skull","genre":["Rock"],"sameAs":["https://open.spotify.com/album/7jawQpnR8JaZZgHyknf6sf","https://music.apple.com/us/album/ghost-choir-in-my-skull-single/1885234231"]},{"@type":"MusicAlbum","name":"Behind the door","datePublished":"2026-03-07","albumReleaseType":"https://schema.org/SingleRelease","numTracks":1,"image":"https://xkwizitai33.github.io/prismatic-wave/assets/artwork/behind-the-door.webp","url":"https://xkwizitai33.github.io/prismatic-wave/#/discography/behind-the-door","genre":["Afro-Beat"],"sameAs":["https://open.spotify.com/album/03EBBXJCaGSKMxChc9IJoA","https://music.apple.com/us/album/behind-the-door-single/1883341187"]},{"@type":"MusicAlbum","name":"Your Whisper","datePublished":"2026-02-12","albumReleaseType":"https://schema.org/SingleRelease","numTracks":1,"image":"https://xkwizitai33.github.io/prismatic-wave/assets/artwork/your-whisper.webp","url":"https://xkwizitai33.github.io/prismatic-wave/#/discography/your-whisper","genre":["R&B/Soul"],"sameAs":["https://open.spotify.com/album/3DLzGqqrOYAsvtZFumRKnr","https://music.apple.com/us/album/your-whisper-single/1877657001"]},{"@type":"MusicAlbum","name":"What didn't kill me learned to respect me","datePublished":"2026-02-05","albumReleaseType":"https://schema.org/AlbumRelease","numTracks":8,"image":"https://xkwizitai33.github.io/prismatic-wave/assets/artwork/what-didnt-kill-me-learned-to-respect-me.webp","url":"https://xkwizitai33.github.io/prismatic-wave/#/discography/what-didnt-kill-me-learned-to-respect-me","genre":["Hip-Hop/Rap"],"sameAs":["https://open.spotify.com/album/4b8f7ywuALEBDhWT6pP7zQ","https://music.apple.com/us/album/what-didnt-kill-me-learned-to-respect-me/1875342563"]},{"@type":"MusicAlbum","name":"Normal is broken","datePublished":"2026-01-24","albumReleaseType":"https://schema.org/EPRelease","numTracks":5,"image":"https://xkwizitai33.github.io/prismatic-wave/assets/artwork/normal-is-broken.webp","url":"https://xkwizitai33.github.io/prismatic-wave/#/discography/normal-is-broken","genre":["Dance"],"sameAs":["https://open.spotify.com/album/4F9Nept2WtUReMKLegIDaf","https://music.apple.com/us/album/normal-is-broken-ep/1871880237"]},{"@type":"MusicAlbum","name":"Ancestral Frequencies","datePublished":"2026-01-24","albumReleaseType":"https://schema.org/AlbumRelease","numTracks":8,"image":"https://xkwizitai33.github.io/prismatic-wave/assets/artwork/ancestral-frequencies.webp","url":"https://xkwizitai33.github.io/prismatic-wave/#/discography/ancestral-frequencies","genre":["Afro-Beat"],"sameAs":["https://open.spotify.com/album/1vFB9XyRlfZQPftBj2CxOK","https://music.apple.com/us/album/ancestral-frequencies/1872333339"]},{"@type":"MusicAlbum","name":"Still Moving","datePublished":"2026-01-17","albumReleaseType":"https://schema.org/EPRelease","numTracks":5,"image":"https://xkwizitai33.github.io/prismatic-wave/assets/artwork/still-moving.webp","url":"https://xkwizitai33.github.io/prismatic-wave/#/discography/still-moving","genre":["House"],"sameAs":["https://open.spotify.com/album/4hpipVLPBG7PBHeGtzGoFV","https://music.apple.com/us/album/still-moving-ep/1869881200"]},{"@type":"MusicAlbum","name":"Sunday Rain","datePublished":"2026-01-17","albumReleaseType":"https://schema.org/SingleRelease","numTracks":1,"image":"https://xkwizitai33.github.io/prismatic-wave/assets/artwork/sunday-rain.webp","url":"https://xkwizitai33.github.io/prismatic-wave/#/discography/sunday-rain","genre":["Rock"],"sameAs":["https://open.spotify.com/album/5YjNGnm4rGcfZW2K5SkLd6","https://music.apple.com/us/album/sunday-rain-single/1869884588"]},{"@type":"MusicAlbum","name":"Rush like a tornado","datePublished":"2026-01-15","albumReleaseType":"https://schema.org/SingleRelease","numTracks":1,"image":"https://xkwizitai33.github.io/prismatic-wave/assets/artwork/rush-like-a-tornado.webp","url":"https://xkwizitai33.github.io/prismatic-wave/#/discography/rush-like-a-tornado","genre":["House"],"sameAs":["https://open.spotify.com/album/4dKvzxOavMl3JMc7BM8VGl","https://music.apple.com/us/album/rush-like-a-tornado-single/1869514214"]},{"@type":"MusicAlbum","name":"This Track Blew Up","datePublished":"2025-12-19","albumReleaseType":"https://schema.org/SingleRelease","numTracks":1,"image":"https://xkwizitai33.github.io/prismatic-wave/assets/artwork/this-track-blew-up.webp","url":"https://xkwizitai33.github.io/prismatic-wave/#/discography/this-track-blew-up","genre":["Dance"],"sameAs":["https://open.spotify.com/album/3xwtoYJZ9NotlKM04MpK18","https://music.apple.com/us/album/this-track-blew-up-single/1862788500"]},{"@type":"MusicAlbum","name":"Summer 2025 Club Bangers Vol1","datePublished":"2025-12-17","albumReleaseType":"https://schema.org/AlbumRelease","numTracks":8,"image":"https://xkwizitai33.github.io/prismatic-wave/assets/artwork/summer-2025-club-bangers-vol1.webp","url":"https://xkwizitai33.github.io/prismatic-wave/#/discography/summer-2025-club-bangers-vol1","genre":["Electronica"],"sameAs":["https://open.spotify.com/album/0Vl0W15hVOp3q21UtxWroY","https://music.apple.com/us/album/summer-2025-club-bangers-vol1/1862041198"]},{"@type":"MusicAlbum","name":"Your Speakers Can't Handle This","datePublished":"2025-11-29","albumReleaseType":"https://schema.org/AlbumRelease","numTracks":10,"image":"https://xkwizitai33.github.io/prismatic-wave/assets/artwork/your-speakers-cant-handle-this.webp","url":"https://xkwizitai33.github.io/prismatic-wave/#/discography/your-speakers-cant-handle-this","genre":["Electronica"],"sameAs":["https://open.spotify.com/album/2qHW4rFnDZMdqVDV4KPf9J","https://music.apple.com/us/album/your-speakers-cant-handle-this/1857145493"]},{"@type":"MusicAlbum","name":"Legacy Unwritten","datePublished":"2025-10-27","albumReleaseType":"https://schema.org/EPRelease","numTracks":5,"image":"https://xkwizitai33.github.io/prismatic-wave/assets/artwork/legacy-unwritten.webp","url":"https://xkwizitai33.github.io/prismatic-wave/#/discography/legacy-unwritten","genre":["Hip-Hop/Rap"],"sameAs":["https://open.spotify.com/album/5IfiGr7dTrccSKYB9A0KYw","https://music.apple.com/us/album/legacy-unwritten-ep/1850181156"]},{"@type":"MusicAlbum","name":"Love In The Code","datePublished":"2025-02-16","albumReleaseType":"https://schema.org/SingleRelease","numTracks":1,"image":"https://xkwizitai33.github.io/prismatic-wave/assets/artwork/love-in-the-code.webp","url":"https://xkwizitai33.github.io/prismatic-wave/#/discography/love-in-the-code","genre":["Hip-Hop/Rap"],"sameAs":["https://open.spotify.com/album/0Vc58tzPeqhVc2Et9tfoFi","https://music.apple.com/us/album/love-in-the-code-single/1796707036"]},{"@type":"MusicAlbum","name":"Echo Of The Streets","datePublished":"2025-02-11","albumReleaseType":"https://schema.org/AlbumRelease","numTracks":12,"image":"https://xkwizitai33.github.io/prismatic-wave/assets/artwork/echo-of-the-streets.webp","url":"https://xkwizitai33.github.io/prismatic-wave/#/discography/echo-of-the-streets","genre":["Hip-Hop/Rap"],"sameAs":["https://open.spotify.com/album/4CESctFS8SFJuLn18XtEbo","https://music.apple.com/us/album/echo-of-the-streets/1795751433"]}]}</script>
+  <!-- JSONLD:END -->
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="bg-layer" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <div class="site-header__inner">
+      <a class="brand" href="#/" aria-label="Prismatic Wave — home">
+        <img class="brand__logo" src="assets/brand/logo-prismatic-wave.svg" alt="Prismatic Wave" width="260" height="36" data-brand="logo">
+      </a>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="#/" data-nav="home">Home</a>
+        <a href="#/music" data-nav="music">Music</a>
+        <a href="#/discography" data-nav="discography">Discography</a>
+        <a href="#/about" data-nav="about">About</a>
+        <a href="#/connect" data-nav="connect">Connect</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" type="button" data-install hidden aria-label="Install the app">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v2a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="label">Install</span>
+        </button>
+        <button class="icon-btn" type="button" data-share="artist" aria-label="Share Prismatic Wave">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4M21 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM9 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm12 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span class="label">Share</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="view" tabindex="-1" aria-live="polite">
+    <!-- SHELL:START (pre-rendered home hero for fast first paint and no-JS crawlers; generated by tools/build-seo.py, replaced by the app) -->
+    <section class="hero hero--shell" aria-labelledby="hero-title">
+      <div class="hero__inner">
+        <p class="kicker hero__kicker"><span class="pulse" aria-hidden="true"></span>AlgoRythm Hybrid Music Production presents</p>
+        <h1 id="hero-title" class="hero__title" data-text="PRISMATIC WAVE">PRISMATIC WAVE</h1>
+        <p class="hero__subtitle">Hybrid Music Producer</p>
+        <p class="hero__line"><span>Human creativity</span><b aria-hidden="true">×</b><span class="sr-only">,</span><span>AI</span><b aria-hidden="true">×</b><span class="sr-only">,</span><span>Music</span><b aria-hidden="true">×</b><span class="sr-only">,</span><span>Technology</span></p>
+        <div class="hero__ctas">
+          <a class="btn btn--prism btn--lg" href="https://open.spotify.com/artist/4q1wMDlETpNlIob1xnVQNA" target="_blank" rel="noopener noreferrer">Listen now</a>
+          <a class="btn btn--glass btn--lg" href="#/music">Explore the music</a>
+        </div>
+      </div>
+    </section><!-- SHELL:END -->
+    <noscript>
+      <section class="section">
+        <h2>Prismatic Wave — Hybrid Music Producer</h2>
+        <p>This site needs JavaScript for the music player. You can still listen here:</p>
+        <ul>
+          <li><a href="https://open.spotify.com/artist/4q1wMDlETpNlIob1xnVQNA" rel="noopener noreferrer">Prismatic Wave on Spotify</a></li>
+          <li><a href="https://suno.com/playlist/e0a90462-a62a-44a6-a8c6-4632712d6a08" rel="noopener noreferrer">The ultimate music box 2026 on Suno</a></li>
+        </ul>
+      </section>
+    </noscript>
+    <div class="boot" aria-hidden="true"><span class="eq"><i></i><i></i><i></i><i></i><i></i></span></div>
+  </main>
+
+  <!-- PERSISTENT PLAYER: lives outside <main>, so route changes never touch it or its iframe -->
+  <section class="player" id="player" aria-label="Music player" data-state="idle" data-source="none">
+    <div class="player__panel" id="player-panel" aria-label="Player details" inert>
+      <div class="player__panel-inner">
+        <div class="player__panel-head">
+          <p class="player__note" id="player-note" aria-live="polite"></p>
+          <button class="icon-btn icon-btn--sm" type="button" data-player="collapse" aria-label="Hide player details">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+        <div class="player__embed" id="player-embed"></div>
+        <h2 class="player__queue-title">Up next</h2>
+        <ol class="player__queue" id="player-queue" aria-label="Queue"></ol>
+      </div>
+    </div>
+    <div class="player__bar">
+      <div class="player__progress" id="player-progress-wrap">
+        <input class="player__seek" id="player-seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek" aria-valuetext="0:00 of 0:00" disabled>
+        <div class="player__progress-fill" id="player-progress-fill" aria-hidden="true"></div>
+      </div>
+      <button class="player__meta" type="button" data-player="expand" aria-expanded="false" aria-controls="player-panel">
+        <img class="player__art" id="player-art" src="assets/brand/default-artwork.svg" alt="" width="48" height="48">
+        <span class="player__text">
+          <span class="player__title" id="player-title">Nothing playing</span>
+          <span class="player__sub"><span class="badge badge--source" id="player-source" hidden></span><span id="player-artist">Press Listen now to start</span></span>
+        </span>
+      </button>
+      <div class="player__controls" role="group" aria-label="Playback controls">
+        <button class="ctrl" type="button" data-player="prev" aria-label="Previous track" disabled>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5v14M19 5 9 12l10 7V5Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="ctrl ctrl--main" type="button" data-player="toggle" aria-label="Play">
+          <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7L8 5Z" fill="currentColor"/></svg>
+          <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="currentColor"/></svg>
+          <svg class="i-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h10M4 17h7M17 14v7l5-3.5-5-3.5Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="ctrl" type="button" data-player="next" aria-label="Next track" disabled>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 5v14M5 5l10 7-10 7V5Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+      <div class="player__right">
+        <span class="player__time" id="player-time" aria-hidden="true"></span>
+        <div class="player__volume" id="player-volume-wrap" role="group" data-supported="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4Zm12.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4Z" fill="currentColor"/></svg>
+          <input id="player-volume" type="range" min="0" max="100" value="80" aria-label="Volume" disabled>
+          <span class="tooltip" id="player-volume-note" role="note"></span>
+        </div>
+        <span class="viz" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+      </div>
+    </div>
+  </section>
+
+  <nav class="bottom-nav" aria-label="Primary (mobile)">
+    <a href="#/" data-nav="home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1v-8.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>Home</span></a>
+    <a href="#/music" data-nav="music"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V6l11-2v12M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm11-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>Music</span></a>
+    <a href="#/discography" data-nav="discography"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span>Releases</span></a>
+    <a href="#/about" data-nav="about"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4 21a8 8 0 0 1 16 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>About</span></a>
+    <a href="#/connect" data-nav="connect"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.6 13.4a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M13.4 10.6a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Connect</span></a>
+  </nav>
+
+  <dialog class="sheet" id="release-sheet" aria-labelledby="sheet-title">
+    <div class="sheet__inner" id="sheet-content"></div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

@@ -1,0 +1,894 @@
+{
+  "_readme": "Every release shown on the site. Newest first is not required (the site sorts by date). Fields: id (url slug, unique), title, type (album | EP | single), date (YYYY-MM-DD), artwork (path under assets/ or https URL; empty = default artwork), genres[], description (optional, never invent), spotifyUri (spotify:album:<id>), links{spotify, appleMusic, suno, youtubeMusic, ...any key from js/platforms.js}, featured (optional true = pin on home), tracks[]{title, duration m:ss, spotifyTrackId, sunoId, audioUrl, explicit}. Entries below were imported on 2026-10-01 from Justin's confirmed Spotify artist (tools/import-spotify-album.py). Spotify's public pages only exposed 15 releases; the full catalogue is visible in the official Spotify artist embed. Add the rest with the import tool or by hand.",
+  "releases": [
+    {
+      "id": "ghost-choir-in-my-skull",
+      "title": "Ghost Choir In My Skull",
+      "type": "single",
+      "date": "2026-03-14",
+      "artwork": "assets/artwork/ghost-choir-in-my-skull.webp",
+      "genres": [
+        "Rock"
+      ],
+      "description": "",
+      "spotifyUri": "spotify:album:7jawQpnR8JaZZgHyknf6sf",
+      "links": {
+        "spotify": "https://open.spotify.com/album/7jawQpnR8JaZZgHyknf6sf",
+        "appleMusic": "https://music.apple.com/us/album/ghost-choir-in-my-skull-single/1885234231"
+      },
+      "tracks": [
+        {
+          "title": "Ghost Choir In My Skull",
+          "duration": "4:50",
+          "spotifyTrackId": "4QnK4pzudNEANwynBMjn5i",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        }
+      ],
+      "source": {
+        "importedFrom": "Spotify public embed/album page",
+        "importedAt": "2026-10-01",
+        "genreFrom": "Apple Music primaryGenreName (℗ 2026 AlgoRythm Hybrid Music Production)"
+      }
+    },
+    {
+      "id": "behind-the-door",
+      "title": "Behind the door",
+      "type": "single",
+      "date": "2026-03-07",
+      "artwork": "assets/artwork/behind-the-door.webp",
+      "genres": [
+        "Afro-Beat"
+      ],
+      "description": "",
+      "spotifyUri": "spotify:album:03EBBXJCaGSKMxChc9IJoA",
+      "links": {
+        "spotify": "https://open.spotify.com/album/03EBBXJCaGSKMxChc9IJoA",
+        "appleMusic": "https://music.apple.com/us/album/behind-the-door-single/1883341187"
+      },
+      "tracks": [
+        {
+          "title": "Behind the door",
+          "duration": "3:13",
+          "spotifyTrackId": "3QnuiJlOr2CPxzHTSTrxgN",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        }
+      ],
+      "source": {
+        "importedFrom": "Spotify public embed/album page",
+        "importedAt": "2026-10-01",
+        "genreFrom": "Apple Music primaryGenreName (℗ 2026 AlgoRythm Hybrid Music Production)"
+      }
+    },
+    {
+      "id": "your-whisper",
+      "title": "Your Whisper",
+      "type": "single",
+      "date": "2026-02-12",
+      "artwork": "assets/artwork/your-whisper.webp",
+      "genres": [
+        "R&B/Soul"
+      ],
+      "description": "",
+      "spotifyUri": "spotify:album:3DLzGqqrOYAsvtZFumRKnr",
+      "links": {
+        "spotify": "https://open.spotify.com/album/3DLzGqqrOYAsvtZFumRKnr",
+        "appleMusic": "https://music.apple.com/us/album/your-whisper-single/1877657001"
+      },
+      "tracks": [
+        {
+          "title": "Your Whisper",
+          "duration": "2:57",
+          "spotifyTrackId": "3644aeQjEYtuAkAR3it71U",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        }
+      ],
+      "source": {
+        "importedFrom": "Spotify public embed/album page",
+        "importedAt": "2026-10-01",
+        "genreFrom": "Apple Music primaryGenreName (℗ 2026 AlgoRythm Hybrid Music Production)"
+      }
+    },
+    {
+      "id": "what-didnt-kill-me-learned-to-respect-me",
+      "title": "What didn't kill me learned to respect me",
+      "type": "album",
+      "date": "2026-02-05",
+      "artwork": "assets/artwork/what-didnt-kill-me-learned-to-respect-me.webp",
+      "genres": [
+        "Hip-Hop/Rap"
+      ],
+      "description": "",
+      "spotifyUri": "spotify:album:4b8f7ywuALEBDhWT6pP7zQ",
+      "links": {
+        "spotify": "https://open.spotify.com/album/4b8f7ywuALEBDhWT6pP7zQ",
+        "appleMusic": "https://music.apple.com/us/album/what-didnt-kill-me-learned-to-respect-me/1875342563"
+      },
+      "tracks": [
+        {
+          "title": "Now or Never",
+          "duration": "3:40",
+          "spotifyTrackId": "1E0BgkKcdOur0EketOwvjX",
+          "explicit": true,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Pause to Play",
+          "duration": "2:16",
+          "spotifyTrackId": "2Oz7TRdJsQ5MwcxEv8N06W",
+          "explicit": true,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Strikers Path",
+          "duration": "2:59",
+          "spotifyTrackId": "3DiCpzDtEk8bGej100eJu9",
+          "explicit": true,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Mind Spinning",
+          "duration": "2:13",
+          "spotifyTrackId": "1qQq4VuFCbq2zMNfhxhLxb",
+          "explicit": true,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Grandmaster",
+          "duration": "2:30",
+          "spotifyTrackId": "5Lw3bQKHGaP3nTv8lZbq7a",
+          "explicit": true,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "The Elite Way",
+          "duration": "2:57",
+          "spotifyTrackId": "0SXb5dbBGfIC8jlxRioQNn",
+          "explicit": true,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Prismatic Armour",
+          "duration": "3:39",
+          "spotifyTrackId": "34GXSe56XaxSkIZff90SFC",
+          "explicit": true,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Iron Code",
+          "duration": "3:12",
+          "spotifyTrackId": "3Pdtqn0OCMardrJK6W5IC6",
+          "explicit": true,
+          "sunoId": "",
+          "audioUrl": ""
+        }
+      ],
+      "source": {
+        "importedFrom": "Spotify public embed/album page",
+        "importedAt": "2026-10-01",
+        "genreFrom": "Apple Music primaryGenreName (℗ 2026 AlgoRythm Hybrid Music Production)"
+      }
+    },
+    {
+      "id": "normal-is-broken",
+      "title": "Normal is broken",
+      "type": "EP",
+      "date": "2026-01-24",
+      "artwork": "assets/artwork/normal-is-broken.webp",
+      "genres": [
+        "Dance"
+      ],
+      "description": "",
+      "spotifyUri": "spotify:album:4F9Nept2WtUReMKLegIDaf",
+      "links": {
+        "spotify": "https://open.spotify.com/album/4F9Nept2WtUReMKLegIDaf",
+        "appleMusic": "https://music.apple.com/us/album/normal-is-broken-ep/1871880237"
+      },
+      "tracks": [
+        {
+          "title": "Normal is broken",
+          "duration": "3:17",
+          "spotifyTrackId": "0ZwJTXseS5MEKYQ2Vkyr44",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Microwave unicorn",
+          "duration": "2:30",
+          "spotifyTrackId": "6QnGD7sN7XQgwt7URhjBO4",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Corner of the eyes",
+          "duration": "3:16",
+          "spotifyTrackId": "3WNCSuoej6mD1NfFZuG9FW",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Big fish, small tank",
+          "duration": "3:06",
+          "spotifyTrackId": "3GmWQVedOOrFYyWwaQUGV0",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Oops, that was out loud",
+          "duration": "2:11",
+          "spotifyTrackId": "5hbvADI8wWSNuahCtGWxoN",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        }
+      ],
+      "source": {
+        "importedFrom": "Spotify public embed/album page",
+        "importedAt": "2026-10-01",
+        "genreFrom": "Apple Music primaryGenreName (℗ 2026 AlgoRythm Hybrid Music Production)"
+      }
+    },
+    {
+      "id": "ancestral-frequencies",
+      "title": "Ancestral Frequencies",
+      "type": "album",
+      "date": "2026-01-24",
+      "artwork": "assets/artwork/ancestral-frequencies.webp",
+      "genres": [
+        "Afro-Beat"
+      ],
+      "description": "",
+      "spotifyUri": "spotify:album:1vFB9XyRlfZQPftBj2CxOK",
+      "links": {
+        "spotify": "https://open.spotify.com/album/1vFB9XyRlfZQPftBj2CxOK",
+        "appleMusic": "https://music.apple.com/us/album/ancestral-frequencies/1872333339"
+      },
+      "tracks": [
+        {
+          "title": "This is the rhythm i carry",
+          "duration": "3:39",
+          "spotifyTrackId": "3Mi2v0DfSM0KGLUWuxFFxe",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Body language",
+          "duration": "3:11",
+          "spotifyTrackId": "3dQ3BuVjTzjFC5MdFXH5Qz",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Look the part",
+          "duration": "4:38",
+          "spotifyTrackId": "28gkugHnPjhpKbyXyD0ULd",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Walk like the drum",
+          "duration": "4:25",
+          "spotifyTrackId": "5cKuXRvDit5MfcgRPkjGeX",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Super powers",
+          "duration": "3:49",
+          "spotifyTrackId": "4BOjcYomJNHdaEK5sI1zwl",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Lose your name",
+          "duration": "3:01",
+          "spotifyTrackId": "0sb2zkCrHITBbzk5Zvttb9",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Call of the ground",
+          "duration": "6:12",
+          "spotifyTrackId": "3lTYaaKP7JbSe86YJZSkpv",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "You say it wrong",
+          "duration": "3:10",
+          "spotifyTrackId": "0OkCBNz7DJ9xG2HNcscqHU",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        }
+      ],
+      "source": {
+        "importedFrom": "Spotify public embed/album page",
+        "importedAt": "2026-10-01",
+        "genreFrom": "Apple Music primaryGenreName (℗ 2026 AlgoRythm Hybrid Music Production)"
+      }
+    },
+    {
+      "id": "still-moving",
+      "title": "Still Moving",
+      "type": "EP",
+      "date": "2026-01-17",
+      "artwork": "assets/artwork/still-moving.webp",
+      "genres": [
+        "House"
+      ],
+      "description": "",
+      "spotifyUri": "spotify:album:4hpipVLPBG7PBHeGtzGoFV",
+      "links": {
+        "spotify": "https://open.spotify.com/album/4hpipVLPBG7PBHeGtzGoFV",
+        "appleMusic": "https://music.apple.com/us/album/still-moving-ep/1869881200"
+      },
+      "tracks": [
+        {
+          "title": "The good times",
+          "duration": "3:45",
+          "spotifyTrackId": "63z0RAU0y06fA84gsp8doa",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Xplosive state",
+          "duration": "3:59",
+          "spotifyTrackId": "2217I6iwrdjjJgt3uyx2ct",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Still Good",
+          "duration": "3:54",
+          "spotifyTrackId": "1Yi3wVWUqmIMrbnINHvQrF",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Joburg Sun",
+          "duration": "2:04",
+          "spotifyTrackId": "0TTycEDRbuRzwyYeRXFytj",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Still moving forward",
+          "duration": "4:07",
+          "spotifyTrackId": "7dfWxngsL3eTAMDBLOp9va",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        }
+      ],
+      "source": {
+        "importedFrom": "Spotify public embed/album page",
+        "importedAt": "2026-10-01",
+        "genreFrom": "Apple Music primaryGenreName (℗ 2026 AlgoRythm Hybrid Music Production)"
+      }
+    },
+    {
+      "id": "sunday-rain",
+      "title": "Sunday Rain",
+      "type": "single",
+      "date": "2026-01-17",
+      "artwork": "assets/artwork/sunday-rain.webp",
+      "genres": [
+        "Rock"
+      ],
+      "description": "",
+      "spotifyUri": "spotify:album:5YjNGnm4rGcfZW2K5SkLd6",
+      "links": {
+        "spotify": "https://open.spotify.com/album/5YjNGnm4rGcfZW2K5SkLd6",
+        "appleMusic": "https://music.apple.com/us/album/sunday-rain-single/1869884588"
+      },
+      "tracks": [
+        {
+          "title": "Sunday Rain",
+          "duration": "4:45",
+          "spotifyTrackId": "7K9SjufD0YG8CM50TNyxzo",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        }
+      ],
+      "source": {
+        "importedFrom": "Spotify public embed/album page",
+        "importedAt": "2026-10-01",
+        "genreFrom": "Apple Music primaryGenreName (℗ 2026 AlgoRythm Hybrid Music Production)"
+      }
+    },
+    {
+      "id": "rush-like-a-tornado",
+      "title": "Rush like a tornado",
+      "type": "single",
+      "date": "2026-01-15",
+      "artwork": "assets/artwork/rush-like-a-tornado.webp",
+      "genres": [
+        "House"
+      ],
+      "description": "",
+      "spotifyUri": "spotify:album:4dKvzxOavMl3JMc7BM8VGl",
+      "links": {
+        "spotify": "https://open.spotify.com/album/4dKvzxOavMl3JMc7BM8VGl",
+        "appleMusic": "https://music.apple.com/us/album/rush-like-a-tornado-single/1869514214"
+      },
+      "tracks": [
+        {
+          "title": "Rush like a tornado",
+          "duration": "2:13",
+          "spotifyTrackId": "4Ckh146JlJXyCQkOoN8bdp",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        }
+      ],
+      "source": {
+        "importedFrom": "Spotify public embed/album page",
+        "importedAt": "2026-10-01",
+        "genreFrom": "Apple Music primaryGenreName (℗ 2026 AlgoRythm Hybrid Music Production)"
+      }
+    },
+    {
+      "id": "this-track-blew-up",
+      "title": "This Track Blew Up",
+      "type": "single",
+      "date": "2025-12-19",
+      "artwork": "assets/artwork/this-track-blew-up.webp",
+      "genres": [
+        "Dance"
+      ],
+      "description": "",
+      "spotifyUri": "spotify:album:3xwtoYJZ9NotlKM04MpK18",
+      "links": {
+        "spotify": "https://open.spotify.com/album/3xwtoYJZ9NotlKM04MpK18",
+        "appleMusic": "https://music.apple.com/us/album/this-track-blew-up-single/1862788500"
+      },
+      "tracks": [
+        {
+          "title": "This Track Blew Up",
+          "duration": "3:28",
+          "spotifyTrackId": "7jVcmVEsGYIKz9J88pM9J0",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        }
+      ],
+      "source": {
+        "importedFrom": "Spotify public embed/album page",
+        "importedAt": "2026-10-01",
+        "genreFrom": "Apple Music primaryGenreName (℗ 2025 AlgoRythm Hybrid Music Production)"
+      }
+    },
+    {
+      "id": "summer-2025-club-bangers-vol1",
+      "title": "Summer 2025 Club Bangers Vol1",
+      "type": "album",
+      "date": "2025-12-17",
+      "artwork": "assets/artwork/summer-2025-club-bangers-vol1.webp",
+      "genres": [
+        "Electronica"
+      ],
+      "description": "",
+      "spotifyUri": "spotify:album:0Vl0W15hVOp3q21UtxWroY",
+      "links": {
+        "spotify": "https://open.spotify.com/album/0Vl0W15hVOp3q21UtxWroY",
+        "appleMusic": "https://music.apple.com/us/album/summer-2025-club-bangers-vol1/1862041198"
+      },
+      "tracks": [
+        {
+          "title": "Take me where the light shines brighter",
+          "duration": "3:51",
+          "spotifyTrackId": "7IODQJ0s4ycd404gvmtFTx",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Feel the world rewind",
+          "duration": "4:31",
+          "spotifyTrackId": "0fzLtiRf7PPaBriW4ncyip",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "We come alive",
+          "duration": "2:34",
+          "spotifyTrackId": "3gAsby1nb98PvXpOaguHSr",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "When sound goes to war",
+          "duration": "3:45",
+          "spotifyTrackId": "5OMZMV9QjLEgNoIR7ntRou",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Slip through the beat",
+          "duration": "3:36",
+          "spotifyTrackId": "4JaXbhoLqZNwHN7Ldd0UnM",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Legends in the making",
+          "duration": "2:25",
+          "spotifyTrackId": "4VDFVpvBC8w17VDPLM7hWa",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Summer lights",
+          "duration": "4:10",
+          "spotifyTrackId": "6qamtNV3VFYYFAkOKFQD0l",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Pulse Horizon",
+          "duration": "4:57",
+          "spotifyTrackId": "1TOdGn721zub0ZlTtMJDD9",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        }
+      ],
+      "source": {
+        "importedFrom": "Spotify public embed/album page",
+        "importedAt": "2026-10-01",
+        "genreFrom": "Apple Music primaryGenreName (℗ 2025 AlgoRythm Hybrid Music Production)"
+      }
+    },
+    {
+      "id": "your-speakers-cant-handle-this",
+      "title": "Your Speakers Can't Handle This",
+      "type": "album",
+      "date": "2025-11-29",
+      "artwork": "assets/artwork/your-speakers-cant-handle-this.webp",
+      "genres": [
+        "Electronica"
+      ],
+      "description": "",
+      "spotifyUri": "spotify:album:2qHW4rFnDZMdqVDV4KPf9J",
+      "links": {
+        "spotify": "https://open.spotify.com/album/2qHW4rFnDZMdqVDV4KPf9J",
+        "appleMusic": "https://music.apple.com/us/album/your-speakers-cant-handle-this/1857145493"
+      },
+      "tracks": [
+        {
+          "title": "Dance floor Therapy",
+          "duration": "4:42",
+          "spotifyTrackId": "2R5oJJFqdBEqWCZc6czk0e",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Club Voltage",
+          "duration": "2:42",
+          "spotifyTrackId": "3UCLmNEPfWDTBMpGseIbY7",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Only Me And The Music",
+          "duration": "4:21",
+          "spotifyTrackId": "0XbAbb8NrBKhFJso82ZOGs",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "When She Hits The Floor",
+          "duration": "5:21",
+          "spotifyTrackId": "7zheAahSXcmVejOrb1yAdW",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Back In The Day",
+          "duration": "3:30",
+          "spotifyTrackId": "3sY1rDPOpHwqxpTbFhFe7U",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "All Around Us",
+          "duration": "3:20",
+          "spotifyTrackId": "7GmlqRE7QzchNNpG3kHhur",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Bassline Mirage",
+          "duration": "3:28",
+          "spotifyTrackId": "5EVn9TBJluOk57igCOComU",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Flow Frequency",
+          "duration": "4:16",
+          "spotifyTrackId": "2OOwh6ukC8qjkqrNvASmgn",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "On The Ground",
+          "duration": "2:44",
+          "spotifyTrackId": "6Pg84blkhfshT2SnUy5gBg",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Through The Veins",
+          "duration": "4:35",
+          "spotifyTrackId": "3GfrnvCrJ7gqiqsmfzRx5A",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        }
+      ],
+      "source": {
+        "importedFrom": "Spotify public embed/album page",
+        "importedAt": "2026-10-01",
+        "genreFrom": "Apple Music primaryGenreName (℗ 2025 AlgoRythm AI Music Production)"
+      }
+    },
+    {
+      "id": "legacy-unwritten",
+      "title": "Legacy Unwritten",
+      "type": "EP",
+      "date": "2025-10-27",
+      "artwork": "assets/artwork/legacy-unwritten.webp",
+      "genres": [
+        "Hip-Hop/Rap"
+      ],
+      "description": "",
+      "spotifyUri": "spotify:album:5IfiGr7dTrccSKYB9A0KYw",
+      "links": {
+        "spotify": "https://open.spotify.com/album/5IfiGr7dTrccSKYB9A0KYw",
+        "appleMusic": "https://music.apple.com/us/album/legacy-unwritten-ep/1850181156"
+      },
+      "tracks": [
+        {
+          "title": "Dopamine Crash",
+          "duration": "2:30",
+          "spotifyTrackId": "30O3VmIHFemL2wlvi5ZD9O",
+          "explicit": true,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Double edged sword",
+          "duration": "3:10",
+          "spotifyTrackId": "2wfdUUo8c3MOZ1Sv1mcqNF",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Always up",
+          "duration": "3:19",
+          "spotifyTrackId": "7wVh1sSSDkTl8rleIX89VY",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Standing on shoulders of rap legacy",
+          "duration": "2:36",
+          "spotifyTrackId": "7kmvntN1XImcWpYHhWD5Nt",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Far from the hood",
+          "duration": "2:17",
+          "spotifyTrackId": "20WJVeBvb6sA8s7SRA2x6I",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        }
+      ],
+      "source": {
+        "importedFrom": "Spotify public embed/album page",
+        "importedAt": "2026-10-01",
+        "genreFrom": "Apple Music primaryGenreName (℗ 2025 AlgoRythm AI Music Production)"
+      }
+    },
+    {
+      "id": "love-in-the-code",
+      "title": "Love In The Code",
+      "type": "single",
+      "date": "2025-02-16",
+      "artwork": "assets/artwork/love-in-the-code.webp",
+      "genres": [
+        "Hip-Hop/Rap"
+      ],
+      "description": "",
+      "spotifyUri": "spotify:album:0Vc58tzPeqhVc2Et9tfoFi",
+      "links": {
+        "spotify": "https://open.spotify.com/album/0Vc58tzPeqhVc2Et9tfoFi",
+        "appleMusic": "https://music.apple.com/us/album/love-in-the-code-single/1796707036"
+      },
+      "tracks": [
+        {
+          "title": "Love In The Code",
+          "duration": "3:47",
+          "spotifyTrackId": "4VqzPiGNdSlKqYJt6lU9oL",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        }
+      ],
+      "source": {
+        "importedFrom": "Spotify public embed/album page",
+        "importedAt": "2026-10-01",
+        "genreFrom": "Apple Music primaryGenreName (℗ 2025 Justin Erasmus)"
+      }
+    },
+    {
+      "id": "echo-of-the-streets",
+      "title": "Echo Of The Streets",
+      "type": "album",
+      "date": "2025-02-11",
+      "artwork": "assets/artwork/echo-of-the-streets.webp",
+      "genres": [
+        "Hip-Hop/Rap"
+      ],
+      "description": "",
+      "spotifyUri": "spotify:album:4CESctFS8SFJuLn18XtEbo",
+      "links": {
+        "spotify": "https://open.spotify.com/album/4CESctFS8SFJuLn18XtEbo",
+        "appleMusic": "https://music.apple.com/us/album/echo-of-the-streets/1795751433"
+      },
+      "tracks": [
+        {
+          "title": "Kasi Party Vibes",
+          "duration": "4:00",
+          "spotifyTrackId": "7JOu7vmgE9m2Gk6KvPAvbw",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Prove Em Wrong",
+          "duration": "2:16",
+          "spotifyTrackId": "68QDCStStD5LenF76qNVNY",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "How I feel",
+          "duration": "2:09",
+          "spotifyTrackId": "5VDOo0aaEPIdU08S71MV1S",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "This Is Our Show",
+          "duration": "3:23",
+          "spotifyTrackId": "4kHRT7cBWjNndk8vNwP3f4",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "The World Is Heavy",
+          "duration": "3:07",
+          "spotifyTrackId": "54rZ2xC59s3YQcDqM29P12",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Thoughts in my head at night",
+          "duration": "3:09",
+          "spotifyTrackId": "2MsL8Wr9m8wqzEQfe6NLX1",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "How To Party",
+          "duration": "2:20",
+          "spotifyTrackId": "5pnb4HfoMCbcZKCsfKIWnm",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Price Of The Throne",
+          "duration": "3:03",
+          "spotifyTrackId": "1IlWtA9leJdKn1I9RQnOSd",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "The Power Of Silence",
+          "duration": "3:55",
+          "spotifyTrackId": "28lzVxSp7JLn1vrMFU3G2E",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "She's a Vibe",
+          "duration": "3:16",
+          "spotifyTrackId": "0BIdxBRFHizZrsKT8chN3X",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Let These Sic Lines Lead",
+          "duration": "3:17",
+          "spotifyTrackId": "6xCWvJSGgWOJ7WbWUJ7PYR",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        },
+        {
+          "title": "Pillow Of Sins",
+          "duration": "3:43",
+          "spotifyTrackId": "4vb9qzRvcl7Qj24cVZLZUm",
+          "explicit": false,
+          "sunoId": "",
+          "audioUrl": ""
+        }
+      ],
+      "source": {
+        "importedFrom": "Spotify public embed/album page",
+        "importedAt": "2026-10-01",
+        "genreFrom": "Apple Music primaryGenreName (℗ 2025 Justin Erasmus)"
+      }
+    }
+  ]
+}

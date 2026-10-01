@@ -1,0 +1,138 @@
+{
+  "_readme": "About page content. Paragraph arrays render in order. Anything marked status DRAFT is shown with a visible 'draft' badge until you change status to 'final'.",
+  "heading": "Justin Erasmus — Hybrid Music Producer",
+  "role": "Founder & creator of AlgoRythm Hybrid Music Production (AHMP) and the artist behind Prismatic Wave.",
+  "photo": {
+    "base": "assets/brand/img/justin-erasmus-studio",
+    "widths": [
+      480,
+      944
+    ],
+    "width": 944,
+    "height": 604,
+    "alt": "Justin Erasmus in his studio at a laptop, surrounded by holographic 'Algorithmic Hybrid Engine' panels, neon-lit speakers and a pad controller"
+  },
+  "bio": {
+    "status": "DRAFT",
+    "_status": "DRAFT written only from facts Justin supplied (2026-10-01). Justin to expand (background, influences, studio) and then set status to 'final'.",
+    "paragraphs": [
+      "Justin Erasmus is a South African hybrid music producer and the founder and creator of AlgoRythm Hybrid Music Production (AHMP). He developed the Hybrid Music Production framework.",
+      "Prismatic Wave is his hybrid, AI-assisted artist persona, produced through AHMP. The catalogue counts 11 albums, 5 EPs and 20 singles released in less than 13 months, on Spotify and other platforms, and a wider body of work is shared on Suno.",
+      "Justin holds SAMPRA and SAMRO approvals and memberships."
+    ]
+  },
+  "hybrid": {
+    "title": "What is Hybrid Music Production?",
+    "teaser": "Hybrid Music Production combines human creativity and musical direction with technology and AI-assisted music creation, to make commercially usable music and explore new sounds.",
+    "paragraphs": [
+      "Hybrid Music Production is a way of making music where human creativity stays in charge and technology, including AI-assisted music tools, widens what is possible. The producer sets the vision: the concept, the emotion, the genre, the lyrics and the musical direction.",
+      "AI-assisted tools are then used to generate and explore ideas quickly: melodies, arrangements, vocal textures and sound palettes that would take far longer to find alone. The producer listens, selects, rejects, rewrites and refines, so every result reflects a human decision.",
+      "Finally, traditional production skills turn the strongest ideas into finished records: songwriting, editing, arrangement, mixing, mastering and release. The aim is twofold: commercially usable music for artists, brands and media, and experimental new sounds that neither people nor machines would reach on their own."
+    ],
+    "pillars": [
+      {
+        "title": "Human creativity",
+        "text": "Concept, emotion, songwriting and the final say on every decision."
+      },
+      {
+        "title": "Musical direction",
+        "text": "Genre, arrangement and sonic identity guided by a producer's ear."
+      },
+      {
+        "title": "AI-assisted creation",
+        "text": "Generative tools used to explore ideas, textures and variations at speed."
+      },
+      {
+        "title": "Production & technology",
+        "text": "Editing, mixing, mastering and release, done with professional tools."
+      }
+    ],
+    "image": {
+      "base": "assets/brand/img/ahmp-poster-gold",
+      "widths": [
+        480,
+        960
+      ],
+      "width": 960,
+      "height": 1440,
+      "alt": "AlgoRythm Hybrid Music Production poster in black, gold and orange: a glowing circuit brain above the AlgoRythm wordmark and waveform"
+    }
+  },
+  "ahmp": {
+    "title": "What is AHMP?",
+    "teaser": "AlgoRythm Hybrid Music Production (AHMP) is the production company founded by Justin Erasmus. Prismatic Wave is produced through AHMP.",
+    "paragraphs": [
+      "AlgoRythm Hybrid Music Production (AHMP) is the South African production company founded and run by Justin Erasmus. It is where the hybrid process behind Prismatic Wave happens: human direction, AI-assisted creation and professional production working together.",
+      "TODO (optional): Justin to add a sentence on AHMP services (e.g. production for artists, brands or sync) and a link."
+    ],
+    "tagline": "AI + Human • Code + Soul — Create Without Limits",
+    "_tagline": "Official AHMP tagline (from Justin's AHMP posters).",
+    "image": {
+      "base": "assets/brand/img/ahmp-poster-blue",
+      "widths": [
+        480,
+        960
+      ],
+      "width": 960,
+      "height": 1440,
+      "alt": "AlgoRythm Hybrid Music Production poster: a glowing blue neural-network brain over a circuit board, chrome AlgoRythm wordmark, waveform and the AHMP mark, with the tagline AI + Human • Code + Soul, Create Without Limits"
+    },
+    "mark": "assets/brand/ahmp-mark.webp"
+  },
+  "showPlaceholders": true,
+  "_showPlaceholders": "true = show the PLACEHOLDER entries below with a dashed 'placeholder' style (useful while editing). false = hide them; if no real entries remain, an elegant empty state is shown.",
+  "achievements": [
+    {
+      "date": "2025-02-11",
+      "title": "First AI album launched in SA",
+      "description": "",
+      "category": "Milestone",
+      "link": "",
+      "image": "",
+      "confirmed": true,
+      "note": "Wording exactly as supplied by Justin. Album title not yet confirmed (see the 'Echo Of The Streets' entry)."
+    },
+    {
+      "date": "2025-02-11",
+      "title": "Echo Of The Streets — album release",
+      "description": "Album by Prismatic Wave, 12 tracks, released 11 February 2025.",
+      "category": "Release",
+      "link": "#/discography/echo-of-the-streets",
+      "image": "",
+      "confirmed": false,
+      "note": "Justin referred to the album as 'Echoes of the Street' (unconfirmed). Spotify and Apple Music list 'Echo Of The Streets' (album, 12 tracks, release date 2025-02-11, ℗ 2025 Justin Erasmus). Confirm whether this is the album behind the 11 Feb 2025 milestone; if yes, set confirmed true (or merge into the entry above)."
+    },
+    {
+      "date": "",
+      "title": "11 albums, 5 EPs and 20 singles released in less than 13 months",
+      "description": "",
+      "category": "Catalogue",
+      "link": "#/discography",
+      "image": "",
+      "confirmed": true,
+      "note": "Supplied by Justin. No exact date range given: do not add one until confirmed."
+    },
+    {
+      "date": "",
+      "title": "SAMPRA and SAMRO approvals and memberships",
+      "description": "",
+      "category": "Membership",
+      "link": "",
+      "image": "",
+      "confirmed": true,
+      "note": "Date unknown: Justin to supply (YYYY-MM-DD or YYYY)."
+    },
+    {
+      "date": "",
+      "title": "Developed the Hybrid Music Production framework",
+      "description": "",
+      "category": "Framework",
+      "link": "#/about",
+      "image": "",
+      "confirmed": true,
+      "note": "Date unknown: Justin to supply."
+    }
+  ],
+  "_achievements": "Timeline entries. date: YYYY-MM-DD, YYYY-MM or YYYY; leave empty for 'Date TBC' (undated entries sort after dated ones, in the order listed). confirmed:false shows a 'To be confirmed' badge. link: https URL or an internal '#/...' link. placeholder:true = template entry (styled as placeholder; hidden when showPlaceholders is false). 'note' is internal only and never shown.",
+  "_photo": "Studio photo of Justin (from 2207.jpg, cropped to remove a small corner watermark). Image object or plain path."
+}

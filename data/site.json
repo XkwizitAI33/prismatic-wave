@@ -1,0 +1,155 @@
+{
+  "_readme": "Global site settings. Empty strings or values starting with 'TODO' are treated as NOT SET: the UI hides them or shows a 'link pending' state. Platform keys must exist in js/platforms.js (add a new platform there once, then just paste its URL here).",
+  "artist": {
+    "name": "Prismatic Wave",
+    "tagline": "Hybrid Music Producer",
+    "supportingLine": "Human creativity × AI × Music × Technology",
+    "realName": "Justin Erasmus",
+    "country": "South Africa",
+    "company": {
+      "name": "AlgoRythm Hybrid Music Production",
+      "short": "AHMP",
+      "url": "TODO: add AHMP website URL (optional)"
+    }
+  },
+  "stats": [
+    {
+      "value": "11",
+      "label": "Albums"
+    },
+    {
+      "value": "5",
+      "label": "EPs"
+    },
+    {
+      "value": "20",
+      "label": "Singles"
+    }
+  ],
+  "_stats": "Headline stats supplied by Justin on 2026-10-01 ('11 albums, 5 EPs and 20 singles released in less than 13 months'). Shown on Home + About. Remove or edit here; an empty list hides the strip.",
+  "statsCaption": "released in less than 13 months",
+  "siteUrl": "https://xkwizitai33.github.io/prismatic-wave/",
+  "featuredReleaseId": "",
+  "_featuredReleaseId": "Leave empty to feature the newest release automatically, or put a release id from releases.json.",
+  "spotify": {
+    "artistId": "4q1wMDlETpNlIob1xnVQNA",
+    "_note": "Confirmed by Justin on 2026-10-01."
+  },
+  "platforms": {
+    "spotify": "https://open.spotify.com/artist/4q1wMDlETpNlIob1xnVQNA",
+    "suno": "https://suno.com/playlist/e0a90462-a62a-44a6-a8c6-4632712d6a08",
+    "appleMusic": "TODO: add Apple Music artist URL (note: Apple's 'Prismatic Wave' artist page 1795750961 also lists an EP by a different label, so confirm with Justin first)",
+    "youtubeMusic": "TODO: add YouTube Music channel URL",
+    "soundcloud": "TODO: add SoundCloud URL",
+    "bandcamp": "TODO: add Bandcamp URL",
+    "deezer": "TODO: add Deezer artist URL",
+    "tidal": "TODO: add TIDAL artist URL",
+    "audiomack": "TODO: add Audiomack URL"
+  },
+  "socials": {
+    "sunoProfile": "https://suno.com/@algorythm_hybrid_music_production",
+    "instagram": "TODO: add Instagram URL",
+    "tiktok": "TODO: add TikTok URL",
+    "youtube": "TODO: add YouTube channel URL",
+    "facebook": "TODO: add Facebook page URL",
+    "x": "TODO: add X (Twitter) URL",
+    "threads": "TODO: add Threads URL"
+  },
+  "contact": {
+    "email": "business.brain.sa@gmail.com",
+    "emailConfirmed": false,
+    "_email": "PLACEHOLDER — this is the business email on record for Justin; confirm it is the right public contact for Prismatic Wave, then set emailConfirmed to true (removes the 'to be confirmed' badge).",
+    "subject": "Prismatic Wave enquiry",
+    "note": "Bookings, sync & licensing, collaborations and press."
+  },
+  "brand": {
+    "logo": "assets/brand/logo-prismatic-wave.svg",
+    "mark": "assets/brand/logo-mark.svg",
+    "ahmpLogo": "assets/brand/ahmp-mark.webp",
+    "heroBackground": "assets/brand/hero-bg.svg",
+    "defaultArtwork": "assets/brand/default-artwork.svg",
+    "ogImage": "assets/brand/og-image.jpg",
+    "_readme": "Brand assets. Image objects {base, widths, width, height, alt} point at optimised files base-<width>.{avif,webp,jpg} made by tools/optimise-brand.py from Justin's originals (kept untouched in assets/brand/source/). A plain path string also works for any image field.",
+    "_logo": "TYPOGRAPHIC PLACEHOLDER: there is no dedicated Prismatic Wave logo yet. Replace this SVG (same name) or point this field at the real logo.",
+    "_ahmpLogo": "AHMP monogram + equaliser mark, cropped from Justin's AHMP poster (3547.jpg) with a transparent background. Designed for dark backgrounds. assets/brand/logo-ahmp.svg is the older typographic placeholder.",
+    "heroImage": {
+      "base": "assets/brand/img/ahmp-poster-blue",
+      "widths": [
+        480,
+        960
+      ],
+      "width": 960,
+      "height": 1440,
+      "alt": "AlgoRythm Hybrid Music Production poster: a glowing blue neural-network brain over a circuit board, chrome AlgoRythm wordmark, waveform and the AHMP mark, with the tagline AI + Human • Code + Soul, Create Without Limits"
+    },
+    "studioPhoto": {
+      "base": "assets/brand/img/justin-erasmus-studio",
+      "widths": [
+        480,
+        944
+      ],
+      "width": 944,
+      "height": 604,
+      "alt": "Justin Erasmus in his studio at a laptop, surrounded by holographic 'Algorithmic Hybrid Engine' panels, neon-lit speakers and a pad controller"
+    }
+  },
+  "seo": {
+    "description": "Prismatic Wave is the hybrid music project of South African producer Justin Erasmus, made through AlgoRythm Hybrid Music Production (AHMP). Human creativity × AI × Music × Technology. Listen on Spotify and Suno.",
+    "keywords": "Prismatic Wave, hybrid music producer, AI-assisted music, AlgoRythm Hybrid Music Production, AHMP, Justin Erasmus, South Africa"
+  },
+  "player": {
+    "sourcePriority": [
+      "audio",
+      "spotify",
+      "suno"
+    ],
+    "_sourcePriority": "When a track has several sources the first available one is used. 'audio' = self-hosted audioUrl (full controls).",
+    "spotifyIframeApi": true,
+    "_spotifyIframeApi": "true = use Spotify's official iFrame API for play/pause/seek/progress (needs 'unsafe-eval' + https://embed-cdn.spotifycdn.com in the CSP). false = plain Spotify embed only (listener presses play inside it) and you can remove those two CSP entries."
+  },
+  "gallery": {
+    "title": "AlgoRythm visual identity",
+    "images": [
+      {
+        "base": "assets/brand/img/ahmp-poster-blue",
+        "widths": [
+          480,
+          960
+        ],
+        "width": 960,
+        "height": 1440,
+        "alt": "AlgoRythm Hybrid Music Production poster: a glowing blue neural-network brain over a circuit board, chrome AlgoRythm wordmark, waveform and the AHMP mark, with the tagline AI + Human • Code + Soul, Create Without Limits"
+      },
+      {
+        "base": "assets/brand/img/ahmp-poster-gold",
+        "widths": [
+          480,
+          960
+        ],
+        "width": 960,
+        "height": 1440,
+        "alt": "AlgoRythm Hybrid Music Production poster in black, gold and orange: a glowing circuit brain above the AlgoRythm wordmark and waveform"
+      },
+      {
+        "base": "assets/brand/img/ahmp-poster-studio",
+        "widths": [
+          480,
+          960
+        ],
+        "width": 960,
+        "height": 1440,
+        "alt": "AlgoRythm Hybrid Music Production poster in a warm studio: a brain in a glass dish beside a mixing desk, with the AlgoRythm wordmark and AHMP logo"
+      }
+    ],
+    "_readme": "Shown on the Connect page. Add/remove image objects or path strings."
+  },
+  "palette": {
+    "_readme": "Documentation only: the live colours are CSS variables at the top of css/main.css.",
+    "electricBlue": "#1E7BFF",
+    "chrome": "#C9D3E6",
+    "gold": "#F2A33A",
+    "cyan": "#00E5FF",
+    "violet": "#8B5CFF",
+    "magenta": "#FF3DCB"
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "_readme": "Suno songs + playlist. Suno has an official per-song embed (https://suno.com/embed/<songId>) but NO playlist embed (suno.com/embed/playlist/... returns 404, checked 2026-10-01), so the site embeds songs individually and links to the full playlist. To add a song: open it on Suno, copy the ID from https://suno.com/song/<ID> and add {id, title, duration, style}. 'artwork' may stay empty: the site then uses Suno's cover https://cdn2.suno.ai/image_<id>.jpeg and falls back to the default artwork. 'style' is the style tag Suno shows for the song and is used for genre chips. The songs below are the first 50 (of 246) shown on Justin's playlist page on 2026-10-01, in playlist order, with titles exactly as Suno shows them.",
+  "playlist": {
+    "id": "e0a90462-a62a-44a6-a8c6-4632712d6a08",
+    "title": "The ultimate music box 2026",
+    "description": "Several genres of music you will not stop listening to",
+    "url": "https://suno.com/playlist/e0a90462-a62a-44a6-a8c6-4632712d6a08",
+    "shareUrl": "https://suno.com/s/lM2tUB5LNyU7QOqT",
+    "songCount": 246,
+    "songCountCheckedAt": "2026-10-01",
+    "artwork": "assets/artwork/suno-the-ultimate-music-box-2026.webp",
+    "owner": "@algorythm_hybrid_music_production",
+    "profileUrl": "https://suno.com/@algorythm_hybrid_music_production"
+  },
+  "songs": [
+    {
+      "id": "6fdea336-03f4-4bc0-89eb-5ecf60a09cd2",
+      "title": "Lucky Coin Spin (Remastered)",
+      "duration": "3:37",
+      "style": "Techno",
+      "artwork": ""
+    },
+    {
+      "id": "90560b0d-6a85-41c6-b37c-8156458c9bf3",
+      "title": "120 in me - new ver",
+      "duration": "2:39",
+      "style": "Trap",
+      "artwork": ""
+    },
+    {
+      "id": "8da7b4df-5317-46f1-93b2-cfb4cb3309bf",
+      "title": "This track is brutal. Play with ⚠️ v8",
+      "duration": "3:12",
+      "style": "Trap",
+      "artwork": ""
+    },
+    {
+      "id": "c395fadc-9bee-4746-937b-d3299ef284b1",
+      "title": "This track is brutal. Play with ⚠️ v7",
+      "duration": "3:48",
+      "style": "Trap",
+      "artwork": ""
+    },
+    {
+      "id": "eb4481f0-7daf-4a29-b2af-caaffdb640f5",
+      "title": "Waterline",
+      "duration": "3:43",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "376108e2-66c6-45bb-a822-10709341e219",
+      "title": "Waterline",
+      "duration": "3:41",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "69da9720-ea0f-495f-bde8-e957ab7a2ad3",
+      "title": "3am sratic",
+      "duration": "3:46",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "d7fa9a4f-3ba2-44bb-b98e-578997214703",
+      "title": "3am sratic",
+      "duration": "3:43",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "65daea4b-ee01-4754-85af-099a0ab0c101",
+      "title": "3am Static",
+      "duration": "3:47",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "4fa44b23-923a-4973-b184-1a8d4a9730fa",
+      "title": "3am Static",
+      "duration": "3:46",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "53d4edae-4c91-45c5-a68d-f4b836a3fbdd",
+      "title": "Feel it coming v2",
+      "duration": "2:46",
+      "style": "Bass Showcase",
+      "artwork": ""
+    },
+    {
+      "id": "3b528e2a-7504-4f64-acbc-7473405a94b9",
+      "title": "Feel it coming v2",
+      "duration": "2:52",
+      "style": "Bass Showcase",
+      "artwork": ""
+    },
+    {
+      "id": "e3e5e469-955d-4c92-97c2-b1baff4a03d2",
+      "title": "my paranoi kicked in v2",
+      "duration": "3:13",
+      "style": "Zef",
+      "artwork": ""
+    },
+    {
+      "id": "f7421423-4cc2-4127-bd4b-228ab85aacbf",
+      "title": "Almost Within Reach v2",
+      "duration": "2:46",
+      "style": "Bass House",
+      "artwork": ""
+    },
+    {
+      "id": "d40d8646-0b24-40a0-8b46-073dd2a81c11",
+      "title": "Almost Within Reach v2",
+      "duration": "3:00",
+      "style": "Bass House",
+      "artwork": ""
+    },
+    {
+      "id": "e96d429f-1a0b-4911-9522-33e2d102b099",
+      "title": "Make it happen",
+      "duration": "4:36",
+      "style": "Melodic House",
+      "artwork": ""
+    },
+    {
+      "id": "c704e0dd-5e87-4686-b0ef-f24d50590ae0",
+      "title": "Full tank, empty worries",
+      "duration": "3:58",
+      "style": "Melodic House",
+      "artwork": ""
+    },
+    {
+      "id": "853266c9-cd9a-4056-8e4e-2913f5178448",
+      "title": "Full tank, empty worries",
+      "duration": "4:33",
+      "style": "Melodic House",
+      "artwork": ""
+    },
+    {
+      "id": "bab4a91a-e715-4423-9c15-5e127eb62dd3",
+      "title": "Character you see v3",
+      "duration": "4:44",
+      "style": "Cloud-Gangsta Trap",
+      "artwork": ""
+    },
+    {
+      "id": "8b18e475-d498-4495-920d-30f9c85edb04",
+      "title": "Finding northing vnew v1",
+      "duration": "2:53",
+      "style": "Dark Atmospheric Cloud Trap / Emotional Underground Hip-Hop",
+      "artwork": ""
+    },
+    {
+      "id": "a3e62739-f691-466a-b5f2-25b7bc6afee1",
+      "title": "Finding northing vnew v1",
+      "duration": "2:37",
+      "style": "Cloud Trap",
+      "artwork": ""
+    },
+    {
+      "id": "08caa77a-d800-4f65-8b47-91c14c6f2bed",
+      "title": "Afterhours Halo v2",
+      "duration": "3:09",
+      "style": "Future Bass",
+      "artwork": ""
+    },
+    {
+      "id": "f029130e-818e-423f-a593-4b5076def1e2",
+      "title": "Afterhours Halo v2",
+      "duration": "3:07",
+      "style": "Future Bass",
+      "artwork": ""
+    },
+    {
+      "id": "dab94b60-2086-4d24-ae31-9ac56e3a84d5",
+      "title": "LOW END Love v2",
+      "duration": "2:54",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "61ca67e1-a101-413f-b700-99adcceca5e9",
+      "title": "LOW END Love v2",
+      "duration": "3:03",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "0044fd90-5bcd-4e96-8ec3-ca3d8bf6e5fd",
+      "title": "LOW END Love v3",
+      "duration": "3:03",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "6c01cfa3-7081-4ffb-b32c-e10110acfdc3",
+      "title": "LOW END Love v3",
+      "duration": "3:12",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "c7e9ec05-bda8-4b69-9db9-a37349ee4eab",
+      "title": "LOW END Love v2",
+      "duration": "3:01",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "e23bc5c5-b927-45da-acf6-a05698aa50a4",
+      "title": "LOW END Love v2",
+      "duration": "3:21",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "69d5ef2a-a03b-4590-8837-fcf647476cb6",
+      "title": "LOW END LOVE",
+      "duration": "3:32",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "ecafd4ff-8786-4a78-bdd0-90505a5f9455",
+      "title": "LOW END LOVE",
+      "duration": "3:18",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "dc0264f0-5306-42bf-b16d-0837f0385c0a",
+      "title": "After midnight",
+      "duration": "4:02",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "b730ccdf-dc3f-4ba1-9b27-1edd36c5f98d",
+      "title": "After midnight",
+      "duration": "4:06",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "1558a3ec-a411-41fd-a340-ab2ff0391367",
+      "title": "Let it run v2",
+      "duration": "4:09",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "5b04d3b6-17aa-418d-9fad-e28d70897b33",
+      "title": "Let it run v2",
+      "duration": "4:11",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "4e1fa397-f252-48f6-8d67-c7ec2a42e5bf",
+      "title": "Let it run",
+      "duration": "4:12",
+      "style": "Smoky Late-Night UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "d0c82a1a-eed6-4603-830f-00ce732b7b37",
+      "title": "Let it run",
+      "duration": "3:58",
+      "style": "UK Garage",
+      "artwork": ""
+    },
+    {
+      "id": "876cf82e-fc9b-4fed-a985-04f2911e1e15",
+      "title": "I'm flying  v2",
+      "duration": "3:06",
+      "style": "Uk Garage",
+      "artwork": ""
+    },
+    {
+      "id": "78cfeece-8971-40ce-a1a6-7d06e32be9d8",
+      "title": "I'm flying  v2",
+      "duration": "2:59",
+      "style": "Uk Garage",
+      "artwork": ""
+    },
+    {
+      "id": "1cf8e28f-ab1e-43cc-b164-c713206812a6",
+      "title": "I'm flying",
+      "duration": "2:38",
+      "style": "Dance House",
+      "artwork": ""
+    },
+    {
+      "id": "03078379-57ce-4b90-8464-ef98f4842df0",
+      "title": "I'm flying",
+      "duration": "3:19",
+      "style": "Dance House",
+      "artwork": ""
+    },
+    {
+      "id": "035c3a8c-d96d-4bab-b0e5-65e636c764a3",
+      "title": "Silhouette Dancing",
+      "duration": "3:09",
+      "style": "UK House",
+      "artwork": ""
+    },
+    {
+      "id": "c2b1f275-3029-4408-b644-2e9c77811b8b",
+      "title": "Silhouette Dancing",
+      "duration": "2:59",
+      "style": "UK House",
+      "artwork": ""
+    },
+    {
+      "id": "5405b13b-37ef-47c0-b3dc-da02ed9a2185",
+      "title": "Finding northing",
+      "duration": "2:30",
+      "style": "Cloud Trap",
+      "artwork": ""
+    },
+    {
+      "id": "fb08356f-92e7-4935-93bd-fb78d6e5a533",
+      "title": "Finding northing",
+      "duration": "2:29",
+      "style": "Cloud Trap",
+      "artwork": ""
+    },
+    {
+      "id": "9a10aa12-9545-48e4-a8bb-f7360b5f5ea1",
+      "title": "The Afterglow new ver",
+      "duration": "3:07",
+      "style": "Electro",
+      "artwork": ""
+    },
+    {
+      "id": "cd530a29-b27c-4600-bef4-d651c95fad51",
+      "title": "The Afterglow new ver",
+      "duration": "3:07",
+      "style": "Electro",
+      "artwork": ""
+    },
+    {
+      "id": "950b86b1-bc78-4526-a094-0f32117b5935",
+      "title": "The Afterglow",
+      "duration": "3:50",
+      "style": "Electro",
+      "artwork": ""
+    },
+    {
+      "id": "3b8e5607-05a6-4393-890c-a6f15b128a9c",
+      "title": "The Afterglow",
+      "duration": "3:37",
+      "style": "Electro",
+      "artwork": ""
+    },
+    {
+      "id": "85074ef3-5d27-4ce6-8025-f8800f4a42dc",
+      "title": "Character you see",
+      "duration": "4:28",
+      "style": "Cloud-Gangsta Trap",
+      "artwork": ""
+    }
+  ]
+}
