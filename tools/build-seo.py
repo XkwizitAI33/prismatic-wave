@@ -30,7 +30,7 @@ ld = {
     "image": absu(site.get("brand", {}).get("ogImage", "")),
     "logo": absu(site.get("brand", {}).get("logo", "")),
     "foundingLocation": {"@type": "Place", "name": site["artist"].get("country")},
-    "member": [{"@type": "Person", "name": site["artist"].get("realName"), "jobTitle": "Hybrid Music Producer"}],
+    "member": [{"@type": "Person", "name": site["artist"].get("realName"), "jobTitle": "Hybrid Music Producer", "url": "https://xkwizitai33.github.io/justin-erasmus-site/", "sameAs": ["https://xkwizitai33.github.io/justin-erasmus-site/"]}],
     "sameAs": same_as,
     "album": [
         {

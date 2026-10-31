@@ -67,6 +67,7 @@ export function aboutView(ctx) {
       <section class="section prose glass" aria-labelledby="bio-title">
         <header class="section-head"><p class="kicker">Biography ${draft ? html`<span class="badge badge--placeholder" title="Draft: Justin to expand">Draft</span>` : ''}</p><h2 class="section-title" id="bio-title">The artist behind ${site.artist?.name}</h2></header>
         ${(about.bio?.paragraphs || []).filter(isSet).map((p) => html`<p>${p}</p>`)}
+        <p>About the creator: <a href="https://xkwizitai33.github.io/justin-erasmus-site/">Justin Erasmus</a>, AI automation specialist and hybrid music producer.</p>
       </section>
 
       <section class="section" aria-labelledby="hybrid-title">

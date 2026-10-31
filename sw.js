@@ -5,7 +5,7 @@
  * - navigations: network-first → cached index.html → offline.html
  * - NEVER touches third-party iframes/players or the Spotify iFrame API script
  */
-const VERSION = 'pw-v1.2.0';
+const VERSION = 'pw-v1.2.1';
 const SHELL = `${VERSION}-shell`;
 const RUNTIME = `${VERSION}-runtime`;
 const IMAGES = `${VERSION}-images`;

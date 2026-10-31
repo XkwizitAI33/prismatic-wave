@@ -73,7 +73,7 @@ export function artistLd(data) {
     logo: abs(base, s.brand?.logo),
     genre: data.genres.slice(0, 8).map((g) => g.name),
     foundingLocation: s.artist?.country ? { '@type': 'Place', name: s.artist.country } : undefined,
-    member: s.artist?.realName ? [{ '@type': 'Person', name: s.artist.realName, jobTitle: 'Hybrid Music Producer' }] : undefined,
+    member: s.artist?.realName ? [{ '@type': 'Person', name: s.artist.realName, jobTitle: 'Hybrid Music Producer', url: 'https://xkwizitai33.github.io/justin-erasmus-site/', sameAs: ['https://xkwizitai33.github.io/justin-erasmus-site/'] }] : undefined,
     sameAs: [...new Set(sameAs)],
     album: data.releases.map((r) => {
       const a = albumLd(data, r, base);
